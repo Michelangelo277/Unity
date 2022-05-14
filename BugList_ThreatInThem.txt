@@ -1,0 +1,25 @@
+Bug List
+==============
+
+MAJOR BUGS (AFFECTS GAMEPLAY)
+------------------------------------------------------------
+
+	* Player
+		# Player frozen in animation after shoving npc
+		# Player stuck in grab state if npc dies while grabbed
+		# NPC stuck to player's hands after turning
+		# Error! 
+			NullReferenceException: 
+			Object reference not set to an instance of an object Grab.Update () (at Assets/Scripts/Grab.cs:31)
+
+
+MINOR BUGS
+------------------------------------------------------------
+	* Player
+		# One side of sprite lights more than the other
+			- Caused by Sprite object being rotated when turning
+	
+
+	* Environment
+		# Door frame Shadows
+			- Caused by gaps in geometry
